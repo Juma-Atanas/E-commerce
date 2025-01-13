@@ -10,4 +10,4 @@ def main(page:Page):
 			content=Text("hello",size=30,weight="bold")
 			)
 		)
-app(main)
+app(main,web_renderer=(WebRenderer.HTML), view=WEB_BROWSER)
